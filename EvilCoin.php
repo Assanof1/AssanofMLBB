@@ -1,5 +1,5 @@
 <?php
-define('API_KEY',"API_TOKEN");
+define('API_KEY',"7843275385:AAEL4VuRO1kEFDwH4UZdPMhsHOv-JRn5sQ0");
 $EvilCodeUz = "1897925266";
 $admins=file_get_contents("statistika/admins.txt");
 $admin = explode("\n", $admins);
@@ -10,7 +10,7 @@ array_push($admin,$EvilCodeUz);
 #Manba buzilmasin!
 
 function bot($method,$datas=[]){
-$url = "https://api.telegram.org/bot".API_KEY."/".$method;
+$url = "https://api.telegram.org/bot".7843275385:AAEL4VuRO1kEFDwH4UZdPMhsHOv-JRn5sQ0."/".$method;
 $ch = curl_init();
 curl_setopt($ch,CURLOPT_URL,$url);
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
